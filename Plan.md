@@ -28,8 +28,18 @@ Create a Header Component
   - create a Components folder in the src folder
   - create a Header folder in the component folder
   - create a HeaderComponent.tsx file
-  - create a StyleHeader.module.css file
-  - import StyleHeader folder in HeaderComponent file - import styles from "./StyleHeader.module.css"
+  - create a StylesHeader.module.css file
+  - import StyleHeader folder in HeaderComponent file - import styles from "./StylesHeader.module.css"
   - create header component and add to page.tsx
+Create a Main Component
+Create a Footer Component
+
+Create a Create Workout Plan Page
+  - create a CreateWorkoutPlan folder
+  - inside folder create a page.tsx file
+  - add header and footer components to this file
+Create a WorkoutLogs page
 
 
+
+ 
