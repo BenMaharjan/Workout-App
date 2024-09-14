@@ -1,0 +1,8 @@
+.MainBody{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height:60vh;
+  color: rgb(135, 135, 242);
+}
