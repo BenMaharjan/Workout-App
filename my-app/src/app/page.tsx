@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import HeaderComponent from "@/Components/Header/HeaderComponent";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
           height={38}
           priority
         />
+        <HeaderComponent />
+
         <ol>
           <li>
             Get started by editing <code>src/app/page.tsx</code>.
