@@ -5,7 +5,7 @@ export default function HeaderComponent () {
   return(
     <>
       <section className ={styles.HeaderSection}>
-        <h1>WORKOUT PLAN</h1>
+        <h1>WORKOUT PLAN APP</h1>
       </section>
     </>
   )
