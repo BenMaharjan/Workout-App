@@ -1,0 +1,7 @@
+.ButtonContainerStyle {
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  gap: 2rem;
+}

@@ -1,8 +1,10 @@
 .HeaderSection {
   display:flex;
+  flex-direction: column;
   justify-content: center;
+  gap:2rem;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: rgb(135, 135, 242);
   color:rgb(216, 200, 211);
   height:20vh;
