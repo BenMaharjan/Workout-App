@@ -7,9 +7,11 @@ import MainComponent from "@/Components/Main/MainComponent";
 export default function Home() {
   return (    
     <>
-      <HeaderComponent />  
-      <MainComponent /> 
-      <FooterComponent />
+      <section>
+        <HeaderComponent />  
+        <MainComponent /> 
+        <FooterComponent />
+      </section>
     </>
   );
 }

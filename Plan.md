@@ -40,6 +40,27 @@ Create a Create Workout Plan Page
   - add header and footer components to this file
 Create a WorkoutLogs page
 
+Create three navigation buttons in Header component. One button for each page
+  - create a link array with href address and text as properties.
+  - create a buttoncontainer child of headercomponent which will map the link array properties to each instance of a button component
+  - create a button child component of buttoncontainer which will take the href and text props from button container
+
+Create a database in CreateWorkoutPlan page
+  - create a grid with 2 colums
+    - first column will display your workout
+    - second column will display the exercises you can add to your workout
+  - create a database in the second column which will store the exercises you can add to your workout
+    - create a database in render
+    - install pg package - cd into my-app folder and run npm install pg
+    - create a lib folder in my-app folder
+    - create a db.js file in lib folder
+
+
+
+
+
+
+
 
 
  

@@ -1,0 +1,20 @@
+.WorkoutContainer {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  height: 60vh;
+}
+
+.ContainerLeft{
+  grid-column: 1;
+  display:flex;
+  justify-content: center;
+  border: 1px solid black;
+
+}
+
+.ContainerRight{
+  grid-column: 2;
+  display:flex;
+  justify-content: center; 
+  border: 1px solid black;
+}
