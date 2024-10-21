@@ -7,9 +7,16 @@
 .ContainerLeft{
   grid-column: 1;
   display:flex;
-  justify-content: center;
+  flex-direction: column;
   border: 1px solid black;
+  text-align: center;
+  align-items: center;
 
+}
+
+.textArea {
+  width:70%;
+  height:fit-content;
 }
 
 .ContainerRight{
@@ -17,4 +24,30 @@
   display:flex;
   justify-content: center; 
   border: 1px solid black;
+}
+
+.PresetPlans{
+  display:flex;
+  width:70%;
+  flex-direction: column;
+}
+.PresetPlans
+p{
+  text-align: center;
+}
+.PresetPlans
+button{
+  background-color: rgb(196, 190, 190);
+  height: 2rem;
+  margin:0.1rem;
+  border-radius: 5px;
+  border: 1px solid;
+  box-shadow: 5px 10px rgb(102, 101, 101);
+
+}
+
+.PresetPlans
+button:hover{
+  background-color: rgb(212, 206, 206);
+  cursor: pointer;
 }

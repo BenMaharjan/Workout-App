@@ -42,16 +42,14 @@ Create three navigation buttons in Header component. One button for each page
   - create a link array with href address and text as properties.
   - create a buttoncontainer child of headercomponent which will map the link array properties to each instance of a button component
   - create a button child component of buttoncontainer which will take the href and text props from button container
-Create a database in CreateWorkoutPlan page
+Create Pre selected Workouts buttons in CreateWorkoutPlan page
   - create a grid with 2 colums
-    - first column will display your workout
-    - second column will display the exercises you can add to your workout
-  - create a database in the second column which will store the exercises you can add to your workout
-    - create a database in render
-    - install pg and dotenv package - cd into my-app folder and run npm install pg dotenv
-    - create a lib folder in my-app folder
-    - create a db.ts file in lib folder
-
+    - first column will display your workout - My Workout Plan section
+    - second column will display the exercises you can add to your workout - Pre-Selected Workouts section
+    - create 4 buttons for 3day, 4day, 5day and 6day pre selected workout plans.
+    - create a data.json file to hold data for the workout plan for now
+    - create a textarea in my Workout Plan section. 
+  
 
 
 
