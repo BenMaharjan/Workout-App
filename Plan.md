@@ -22,7 +22,7 @@ Create a front end
   - create a Next.js app - npx create-next-app@latest
   - initialise node.js project (create a basic package.json file) - npm init -y
   - install dependancies - npm install
-  - cd into profect folder (default my-app)
+  - cd into project folder (default my-app)
   - run server - npm run dev
 Create a Header Component
   - create a Components folder in the src folder
@@ -33,27 +33,24 @@ Create a Header Component
   - create header component and add to page.tsx
 Create a Main Component
 Create a Footer Component
-
 Create a Create Workout Plan Page
   - create a CreateWorkoutPlan folder
   - inside folder create a page.tsx file
   - add header and footer components to this file
 Create a WorkoutLogs page
-
 Create three navigation buttons in Header component. One button for each page
   - create a link array with href address and text as properties.
   - create a buttoncontainer child of headercomponent which will map the link array properties to each instance of a button component
   - create a button child component of buttoncontainer which will take the href and text props from button container
-
 Create a database in CreateWorkoutPlan page
   - create a grid with 2 colums
     - first column will display your workout
     - second column will display the exercises you can add to your workout
   - create a database in the second column which will store the exercises you can add to your workout
     - create a database in render
-    - install pg package - cd into my-app folder and run npm install pg
+    - install pg and dotenv package - cd into my-app folder and run npm install pg dotenv
     - create a lib folder in my-app folder
-    - create a db.js file in lib folder
+    - create a db.ts file in lib folder
 
 
 
