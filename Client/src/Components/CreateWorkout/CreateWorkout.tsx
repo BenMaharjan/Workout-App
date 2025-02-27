@@ -5,7 +5,7 @@ import styles from "./StylesCreateWorkout.module.css";
 
 interface WorkoutPlan {
     Chest: string;
-    Shoulders: string;
+    Shoulders: string;   
     Legs: string;
 }
 
