@@ -61,6 +61,8 @@ Create a back-end
     - Connect API to database using pg module
 
 Create a new page in react to test database connection
+  - install CORS to enable Cross origin resource sharing
+  
     
   
 
