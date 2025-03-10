@@ -59,6 +59,8 @@ Create a back-end
     - Create a database using render
     - Create a threedayworkout table in database
     - Connect API to database using pg module
+
+Create a new page in react to test database connection
     
   
 
