@@ -10,6 +10,13 @@ export async function resetTable() {
         muscleGroup VARCHAR(255) NOT NULL,
         exercise VARCHAR(255) NOT NULL
       );
+
+      DROP TABLE IF EXISTS fourDayWorkOut;
+      CREATE TABLE fourDayWorkOut (
+        id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+        muscleGroup VARCHAR(255) NOT NULL,
+        exercise VARCHAR(255) NOT NULL
+      );
     `);
 
     // Insert data into the table
@@ -17,9 +24,18 @@ export async function resetTable() {
       INSERT INTO threeDayWorkOut (muscleGroup, exercise)
       VALUES
         ('Chest', 'Bench Press'),
+        ('Back', 'Bent-over Row'),
         ('Shoulders', 'Overhead Press'),
         ('Legs', 'Squats'),
         ('Arms', 'Bicep Curl');
+
+      INSERT INTO fourDayWorkOut (muscleGroup, exercise)
+      VALUES
+        ('Chest', 'Incline Dumbell Press'),
+        ('Back', 'Face Pulls'),
+        ('Shoulders', 'Side Lateral Raises'),
+        ('Legs', 'Leg Extensions'),
+        ('Arms', 'Tricep Extensions');
     `);
 
     console.log("Table reset and data inserted successfully.");

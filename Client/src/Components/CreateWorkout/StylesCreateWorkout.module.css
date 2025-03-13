@@ -11,11 +11,11 @@
   border: 1px solid black;
   text-align: center;
   align-items: center;
-
 }
 
 .textArea {
   width:70%;
+  height:fit-content;
   background-color: azure;
 }
 

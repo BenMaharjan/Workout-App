@@ -62,6 +62,8 @@ Create a back-end
 
 Create a new page in react to test database connection
   - install CORS to enable Cross origin resource sharing
+
+Create 3 day and 4 day plans in the database
   
     
   
